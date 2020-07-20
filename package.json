@@ -1,6 +1,6 @@
 {
-  "name": "vue-stop-multiple-click",
-  "version": "0.0.5",
+  "name": "element-ui-stop-multiple-click",
+  "version": "0.0.6",
   "description": "",
   "main": "vue-prevent-multiple-click.js",
   "scripts": {
@@ -10,10 +10,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/En777/vue-stop-multiple-click.git"
+    "url": "https://github.com/En777/element-ui-stop-multiple-click.git"
   },
   "keywords": [
     "vue",
+    "element-ui",
     "prevent",
     "multiple",
     "click",
@@ -24,7 +25,7 @@
     "async"
   ],
   "bugs": {
-    "url": "https://github.com/En777/vue-stop-multiple-click/issues"
+    "url": "https://github.com/En777/element-ui-stop-multiple-click/issues"
   },
-  "homepage": "https://github.com/En777/vue-stop-multiple-click"
+  "homepage": "https://github.com/En777/element-ui-stop-multiple-click"
 }

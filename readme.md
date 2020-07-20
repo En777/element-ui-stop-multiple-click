@@ -14,7 +14,7 @@ a simple way prevent button multiple clicks.
 
 ## Usage
 ```js
-const StopMultipleClick = require('vue-stop-multiple-click')
+const StopMultipleClick = require('element-ui-stop-multiple-click')
 
 Vue.directive('clickAsync', StopMultipleClick)
 ```
@@ -26,7 +26,7 @@ Vue.directive('clickAsync', StopMultipleClick)
 or use CDN script:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue-stop-multiple-click@0/vue-prevent-multiple-click.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/element-ui-stop-multiple-click@0.0.6/vue-prevent-multiple-click.min.js"></script>
 
 <script>
 var StopMultipleClick = window.StopMultipleClick
