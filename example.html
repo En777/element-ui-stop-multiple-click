@@ -35,7 +35,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"></script>
   <!-- <script src="./vue-prevent-multiple-click.js"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/vue-stop-multiple-click@0/vue-prevent-multiple-click.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/element-ui-stop-multiple-click@0.0.6/vue-prevent-multiple-click.min.js"></script>
   <script>
     var StopMultipleClick = window.StopMultipleClick
     Vue.directive('clickAsync', StopMultipleClick)
@@ -69,13 +69,20 @@
   <script src="https://cdn.jsdelivr.net/npm/element-ui/lib/index.js"></script>
 
   <div id="app2">
-    <h3>custom disabled class (work with others UI components)</h3>
-    <div>v-click-async="onGetData" disabled-class="is-disabled"</div>
-    <el-button v-click-async="onGetData" disabled-class="is-disabled" type="primary">stop multiple click button</el-button>
+    <h3>custom disabled class (work with element-ui components)</h3>
+    <div>v-click-async="onGetData"</div>
+    <el-button
+      v-click-async="onGetData"
+      type="primary"
+    >stop multiple click button</el-button>
     <br>
     <br>
-    <div>v-click-async="onGetData" disabled style is not working</div>
-    <el-button v-click-async="onGetData" type="primary">stop multiple click button</el-button>
+    <div>disabled-class="my-custom-class" can custom className for other lib</div>
+    <el-button
+      v-click-async="onGetData"
+      disabled-class="my-custom-class"
+      type="primary"
+    >custom className for disabled</el-button>
     <br>
     <br>
   </div>

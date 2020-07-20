@@ -29,6 +29,10 @@
         var disabledClassList = (el.getAttribute('disabled-class') || '').split(' ').filter(function (className) {
           return className !== ''
         })
+
+        var isElementUI = classList.contains('el-button')
+        if (isElementUI) disabledClassList.push('is-disabled')
+
         var hasDisabledClass = disabledClassList.length > 0
 
         hasDisabledClass && DOMTokenList.prototype.add.apply(classList, disabledClassList);
