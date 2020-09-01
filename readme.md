@@ -38,4 +38,4 @@ Vue.directive('clickAsync', StopMultipleClick)
 ```
 
 ## example / demo
-[online example](https://en777.github.io/vue-stop-multiple-click/example.html)
+[online example](https://en777.github.io/element-ui-stop-multiple-click/example.html)
