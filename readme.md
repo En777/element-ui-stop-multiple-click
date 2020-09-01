@@ -1,10 +1,10 @@
-# vue-stop-multiple-click
+# element-ui-stop-multiple-click
 
-![npm](https://img.shields.io/npm/v/vue-stop-multiple-click)
-[![gzip size](http://img.badgesize.io/https://unpkg.com/vue-stop-multiple-click/vue-prevent-multiple-click.js?compression=gzip&label=gzip%20size&style=flat-square)](https://unpkg.com/vue-stop-multiple-click/vue-prevent-multiple-click.js)
-[![downloads](https://img.shields.io/npm/dm/vue-stop-multiple-click.svg?style=flat-square)](https://www.npmtrends.com/vue-stop-multiple-click)
-[![MIT License](https://img.shields.io/npm/l/vue-stop-multiple-click.svg?style=flat-square)](https://github.com/fisker/vue-stop-multiple-click/blob/master/license)
-[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/vue-stop-multiple-click/badge)](https://www.jsdelivr.com/package/npm/vue-stop-multiple-click)
+![npm](https://img.shields.io/npm/v/element-ui-stop-multiple-click)
+[![gzip size](http://img.badgesize.io/https://unpkg.com/element-ui-stop-multiple-click/vue-prevent-multiple-click.js?compression=gzip&label=gzip%20size&style=flat-square)](https://unpkg.com/element-ui-stop-multiple-click/vue-prevent-multiple-click.js)
+[![downloads](https://img.shields.io/npm/dm/element-ui-stop-multiple-click.svg?style=flat-square)](https://www.npmtrends.com/element-ui-stop-multiple-click)
+[![MIT License](https://img.shields.io/npm/l/element-ui-stop-multiple-click.svg?style=flat-square)](https://github.com/fisker/element-ui-stop-multiple-click/blob/master/license)
+[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/element-ui-stop-multiple-click/badge)](https://www.jsdelivr.com/package/npm/element-ui-stop-multiple-click)
 
 a simple way prevent button multiple clicks.
 
